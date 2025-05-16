@@ -15,7 +15,9 @@ normal_params = sum(m.numel() for m in model.parameters())
 
 compressed_model, _ = minify(
     model,
-    compression_strength=5,
+    compression_strength=5,  # From 0 (no compression) to 5 (strongest)
+
+    # Everything below is optional
     fine_tune=False,
     quantization=False,
     training_generator=None,
