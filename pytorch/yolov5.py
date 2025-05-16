@@ -17,6 +17,13 @@ compressed_model, _ = minify(
     model,
     compression_strength=5,
     fine_tune=False,
+    quantization=False,
+    training_generator=None,
+    validation_generator=None,
+    loss_function=None,
+    optimizer=None,
+    precision='mixed',
+    accumulation_steps=1,
     debug_mode=False,
 )
 
