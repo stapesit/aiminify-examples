@@ -1,6 +1,6 @@
 # AIminify examples
 
-This repository is an open-source collection of scripts demonstrating how to compress popular deep learning models using AIminify, a product that automates neural network compression for PyTorch and TensorFlow models.
+This repository is an open-source collection of scripts demonstrating how to compress popular deep learning models using [AIminify](https://aiminify.com/), a product that automates neural network compression for PyTorch and TensorFlow models.
 
 ## 🚀 About AIminify
 AIminify simplifies the process of compressing neural networks by automating algorithm selection, parameter tuning, and fine-tuning. It supports both PyTorch and TensorFlow models and can be integrated into your existing projects with minimal effort.
@@ -29,4 +29,4 @@ aiminify configure PASSWORD
 
 ## 👨‍💻 Developer documentation
 
-Extensive documentation can be found in our documentation page, see [here](https://docs.aiminify.com/)
+Extensive documentation can be found in our documentation page, see [here](https://docs.aiminify.com/).
