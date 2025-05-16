@@ -13,3 +13,20 @@ Key features:
 
 - On-premise processing: Ensure data privacy by processing models locally.
 
+## 🖥️ Installing AIminify
+
+To install AIminify, a license is needed. (Contact us)[mailto:info@aiminify.com] to obtain a license. After obtaining the license, one can install AIminify with:
+
+```bash
+pip install aiminify -i https://USERNAME:PASSWORD@pypi.aiminify.com/
+```
+
+and then
+
+```bash
+aiminify configure PASSWORD
+```
+
+## 👨‍💻 Developer documentation
+
+Extensive documentation can be found in our documentation page, see (here)[https://docs.aiminify.com/]
