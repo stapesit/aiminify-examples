@@ -15,7 +15,7 @@ Key features:
 
 ## 🖥️ Installing AIminify
 
-To install AIminify, a license is needed. (Contact us)[mailto:info@aiminify.com] to obtain a license. After obtaining the license, one can install AIminify with:
+To install AIminify, a license is needed. [Contact us](mailto:info@aiminify.com) to obtain a license. After obtaining the license, one can install AIminify with:
 
 ```bash
 pip install aiminify -i https://USERNAME:PASSWORD@pypi.aiminify.com/
@@ -29,4 +29,4 @@ aiminify configure PASSWORD
 
 ## 👨‍💻 Developer documentation
 
-Extensive documentation can be found in our documentation page, see (here)[https://docs.aiminify.com/]
+Extensive documentation can be found in our documentation page, see [here](https://docs.aiminify.com/)
