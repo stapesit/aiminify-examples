@@ -6,7 +6,10 @@ import torch
 from aiminify import minify
 from aiminify.minify_pytorch.utils import get_flops
 
-model = YOLO('yolov5s.pt').model.to('cpu')
+# Try any of the following
+# model = YOLO('yolov5s.pt').model.to('cpu')
+# model = YOLO('yolov8s.pt').model.to('cpu')
+model = YOLO('yolo11s.pt').model.to('cpu')
 
 rand_input = torch.randn(1, 3, 640, 640)
 
