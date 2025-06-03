@@ -3,7 +3,6 @@ from ultralytics import YOLO
 from ultralytics.engine.exporter import Exporter
 from onnxruntime.quantization import quantize_dynamic, QuantType
 
-
 from aiminify import minify
 from aiminify.minify_pytorch.utils import get_flops
 
