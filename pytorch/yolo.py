@@ -41,6 +41,8 @@ def quantize_int8(model: torch.nn.Module) -> torch.nn.Module:
         weight_type=QuantType.QInt8  # or QuantType.QUInt8
     )
 
+    return 'model_int8.onnx'
+
 
 if __name__ == "__main__":
     # Try any of the following
